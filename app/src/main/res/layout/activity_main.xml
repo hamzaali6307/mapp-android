@@ -37,7 +37,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:navGraph="@navigation/nav_graph" />
 
-        <com.softvilla.qrscan.ui.scan.CustomBottomNavigationView
+        <com.emusksystems.muskeapp.ui.scan.CustomBottomNavigationView
             android:id="@+id/bottom_nav"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

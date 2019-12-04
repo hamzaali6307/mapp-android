@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/scanFragment"
-        android:name="com.softvilla.qrscan.ui.scan.ScanFragment"
+        android:name="com.emusksystems.muskeapp.ui.scan.ScanFragment"
         android:label="fragment_scan"
         tools:layout="@layout/fragment_scan" >
         <action
@@ -16,17 +16,17 @@
     </fragment>
     <fragment
         android:id="@+id/recentFragment"
-        android:name="com.softvilla.qrscan.ui.recent.RecentFragment"
+        android:name="com.emusksystems.muskeapp.ui.recent.RecentFragment"
         android:label="fragment_recent"
         tools:layout="@layout/fragment_recent" />
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.softvilla.qrscan.ui.setting.SettingFragment"
+        android:name="com.emusksystems.muskeapp.ui.setting.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" />
     <fragment
         android:id="@+id/signupFragment"
-        android:name="com.softvilla.qrscan.ui.signup.SignupFragment"
+        android:name="com.emusksystems.muskeapp.ui.signup.SignupFragment"
         android:label="fragment_signup"
         tools:layout="@layout/fragment_signup" />
 </navigation>
